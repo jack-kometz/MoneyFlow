@@ -123,11 +123,6 @@ main {
   text-align: center;
 }
 
-.card.dark {
-  background: #fff; /* override dark variant */
-  color: #000;
-}
-
 .card-icon {
   display: none;    /* hide images */
 }
