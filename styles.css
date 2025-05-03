@@ -6,7 +6,7 @@
 }
 body {
   font-family: sans-serif;
-  background: #fff;
+  background: #e0f7e9; /* light green background */
   color: #000;
 }
 
@@ -15,6 +15,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 16px;
+  background: transparent;
 }
 .logo {
   font-size: 22px;
@@ -24,15 +25,12 @@ body {
   display: flex;
   align-items: center;
 }
-.actions .icon {
-  width: 28px;
-  height: 28px;
-}
 .menu-btn {
   background: none;
   border: none;
   font-size: 26px;
   margin-left: 16px;
+  color: #000;
 }
 
 main {
@@ -106,18 +104,18 @@ main {
   padding: 24px 16px;
 }
 .card {
-  background: #f9f9f9;
+  background: #fff; /* white cards */
+  color: #000; /* black text */
   border-radius: 14px;
   padding: 20px;
   text-align: center;
 }
 .card.dark {
-  background: #333;
-  color: #fff;
+  background: #fff; /* override dark variant */
+  color: #000;
 }
 .card-icon {
-  width: 36px;
-  height: 36px;
+  display: none; /* hide images */
 }
 .card h3 {
   font-size: 18px;
