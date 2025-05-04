@@ -42,12 +42,25 @@ main {
 }
 
 .hero {
+  padding: 100px 16px 60px; 
   text-align: center;
-  padding: 60px 16px;
   min-height: 60vh;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start; 
+}
+
+.hero-image-wrapper {
+  width: 100%;
+  display: flex;
   justify-content: center;
+  margin-bottom: 24px; 
+}
+
+.hero-image {
+  max-width: 200px;    /* o la dimensione che preferisci */
+  width: 50%;
+  height: auto;
 }
 
 .hero h1 {
